@@ -1,0 +1,15 @@
+ext {
+    android = [
+            compileSdkVersion: 30,
+            minSdkVersion    : 22,
+            targetSdkVersion : 30,
+            buildToolsVersion :'30.0.3'
+    ]
+
+    deps = [
+            appcompat                    : 'androidx.appcompat:appcompat:1.2.0',
+            constraintlayout             : 'androidx.constraintlayout:constraintlayout:2.0.4',
+            material                     : 'com.google.android.material:material:1.4.0',
+    ]
+
+}
